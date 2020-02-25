@@ -1,3 +1,85 @@
+@font-face {
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Raleway";
+    src: local("Raleway"),
+    url("../fonts/Raleway-Regular.woff") format("woff"),
+    url("../fonts/Raleway-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Raleway";
+    src: local("Raleway"), local("Raleway-Italic"),
+    url("../fonts/Raleway-italic.woff") format("woff"),
+    url("../fonts/Raleway-italic.woff2") format("woff2");
+}
+@font-face {
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Raleway";
+    src: local("Raleway"), local("Raleway-Bold"),
+    url("../fonts/Raleway-Bold.woff") format("woff"),
+    url("../fonts/Raleway-Bold.woff2") format("woff2");
+}
+@font-face {
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Raleway";
+    src: local("Raleway"), local("Raleway-SemiBold"),
+    url("../fonts/Raleway-SemiBold.woff") format("woff"),
+    url("../fonts/Raleway-SemiBold.woff2") format("woff2");
+}
+@font-face {
+    font-style: normal;
+    font-weight: 800;
+    font-family: "Raleway";
+    src: local("Raleway"), local("Raleway-ExtraBold"),
+    url("../fonts/Raleway-ExtraBold.woff") format("woff"),
+    url("../fonts/Raleway-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Roboto";
+    src: local("Roboto"),
+    url("../fonts/Roboto.woff") format("woff"),
+    url("../fonts/Roboto.woff2") format("woff2");
+}
 body {
-	background-image: linear-gradient(green,red);
+	font-family: "Raleway", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+.font-family {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+.font-weight-middle {
+    font-weight: 600;
+}
+.font-weight-exbold {
+    font-weight: 800;
+}
+.container {
+    width: 1600px;
+}
+.display-1 {
+    font-size: 55px;
+    line-height: 65px;
+}
+.display-2 {
+    font-size: 45px;
+}
+.display-3 {
+    font-size: 20px;
+}
+.display-4 {
+    font-size: 18px;
+    line-height: 35px;
+}
+.small {
+    font-size: 25px;
+}
+.align-center {
+    margin-left: 50%;
 }

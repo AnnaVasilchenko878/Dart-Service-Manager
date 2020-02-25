@@ -1,129 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, inital-scale=1, shrink-tofit=no">
 	<title>Dart Service Manager</title>
 	<link href="node_modules/bootstrap/dist/css/bootstrap-reboot.css" rel="stylesheet">
 	<link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="container">
 <header class="header">
-	<a href="#">
+	<nav class="row">
+	<a class="col" href="#">
 		<img src="#" alt="#">
 	</a>
-	<ul>
-		<li class="bg-danger"><a href="#">Home</a></li>
-		<li class="btn-dark"><a href="#">Service</a></li>
+	<ul class="row col font-weight-middle">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Service</a></li>
 		<li><a href="#">Extension</a></li>
 		<li><a href="#">Pricing</a></li>
 		<li><a href="#">Help</a></li>
 	</ul>
-	<ul>
+	<ul class="row col">
 		<li>
 			 <button>sign up</button>
 		</li>
 	</ul>
+	</nav>
 </header>
 <main>
-	<section>
-		<h1 class="display-1">Lorem ipsum dolor sit amet</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc</p>
-		<a href="#">Buy now</a>
-		<a href="#">Try for</a>
-		<img src="#" alt="#">
+	<section class="row">
+		<div class="col-6">
+		<h1 class="display-1 font-weight-bold text-uppercase">Lorem ipsum dolor sit amet</h1>
+		<p class="display-4">Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc</p>
+		<a class="text-uppercase font-family" href="#">Buy now</a>
+		<a class="text-uppercase font-family" href="#">Try for</a>
+		 </div>
+		<img class="col" src="#" alt="#">
 	</section>
 	<section>
-		<h2>Easy&#38;Useful</h2>
-		<p>Project Management Tool</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua. Ut enim ad minim veniam, quis nostrud</p>
-	  <ul>
-			<li>
-				<h3>Tilte Goes Here</h3>
+		<h2 class="display-2 text-center font-weight-middle">Easy&#38;Useful</h2>
+		<p class="text-center font-weight-middle">Project Management Tool</p>
+		<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua. Ut enim ad minim veniam, quis nostrud</p>
+	  <ul class="row text-center">
+			<li class ="col-4">
+				<h3 class="display-3 font-weight-middle">Tilte Goes Here</h3>
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua.</p>
+			</li>
+			<li class="col-4">
+				<h3 class="display-3 font-weight-middle">Tilte Goes Here</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua.</p>
 			</li>
-			<li>
-				<h3>Tilte Goes Here</h3>
+			<li class="col-4">
+				<h3 class="display-3 font-weight-middle">Tilte Goes Here</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua.</p>
 			</li>
-			<li>
-				<h3>Tilte Goes Here</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua.</p>
-			</li>
-			<a href="#">Get Started</a>
 		</ul>
-		<ul>
-			<li>
+		<a class="align-center" href="#">Get Started</a>
+		<ul class="row font-weight-exbold display-3">
+			<li class="col-3">
 				<h3>12000+</h3>
 				<p>Bisiness</p>
 			</li>
-			<li>
+			<li class="col-3">
 				<h3>60000+</h3>
 				<p>Downloads</p>
 			</li>
-			<li>
+			<li class="col-3">
 				<h3>30000+</h3>
 				<p>Free installs</p>
 			</li>
-			<li>
+			<li class="col-3">
 				<h3>40000+</h3>
 				<p>Pro Users</p>
 			</li>
 		</ul>
 	</section>
 	<section>
-		<h2>Services</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma</p> 
-		<ul>
+		<h2 class="display-2 text-center font-weight-middle">Services</h2>
+		<p class="text-center font-weight-middle">Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma</p> 
+		<ul class="text-center"> 
 			<li>
-				<h3>Statistics</h3>
+				<p class="font-weight-bold text-uppercase">Statistics</p>
 				<img src="#" alt="#">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua. Ut enim ad minim veniam.</p>
 			  <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
 			</li>
 			<li>
-				<h3>Inbox</h3>
+				<p class="font-weight-bold text-uppercase">Inbox</p>
 			</li>
 			<li>
-				<h3>Team</h3>
+				<p class="font-weight-bold text-uppercase">Team</p>
 			</li>
 			<li>
-				<h3>Settings</h3>
+				<p class="font-weight-bold text-uppercase">Settings</p>
 			</li>
 			<li>
-				<h3>Feed</h3>
+				<p class="font-weight-bold text-uppercase">Feed</p>
 			</li>
 		</ul>
 	</section>
-	<section>
-		<h2>What our customers have to say about us.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magma</p>
+	<section class="row mb-5">
+		<div class="col-6">
+		<h2 class="display-2 text-center font-weight-middle">What our customers have to say about us.</h2>
+		<p class="font-weight-middle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magma</p>
 		<a href="#">Get started</a>
+		</div>
+		<div class="col-6">
 		<ul>
 			<li>
 				<img src="#" alt="#">
-				<h3>John De</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+				<h3 class="display-4 font-weight-bold">John De</h3>
+				<p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
 			</li>
 			<li>
 				<img src="#" alt="#">
-				<h3>Khalessi</h3>
-				<p>Lorem ipsum dolor sit amet,  consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+				<h3 class="display-4 font-weight-bold">Khalessi</h3>
+				<p class="font-italic">Lorem ipsum dolor sit amet,  consectetur adipisicing alit, sed do eiusmod tempor incididunt labore et dolore magma aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
 			</li>
 		</ul>
+		</div>
 	</section>
 	<section>
-		<h2>Our Team</h2>
-		<p>Lorem ipsum dolor sit amet,  consectetur adipisicing alit, sed do eiusmod tempor</p>
+		<h2 class="display-2 text-center font-weight-middle">Our Team</h2>
+		<p class="text-center">Lorem ipsum dolor sit amet,  consectetur adipisicing alit, sed do eiusmod tempor</p>
 		<ul>
 			<li>
 				<img src="#" alt="#">
 			</li>
-			<li>
+			<li class="text-center">
 				<img src="#" alt="#">
-				<h3>Sophie Turner</h3>
+				<h3 class="display-4 font-weight-bold">Sophie Turner</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-			  <ul>
+			  <ul class="row text-center">
 					 <li><a href="#">Twitter</a></li>
 					 <li><a href="#">Facebook</a></li>	
 					 <li><a href="#">In</a></li>	
@@ -134,8 +143,8 @@
 		</ul>
 	</section>
 	<section>
-		<h2>Contacts Us</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+		<h2 class="display-2 text-center font-weight-middle">Contacts Us</h2>
+		<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing alit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
 		<form action="#" method="post">
 			<ul>
 				<li>
@@ -168,7 +177,7 @@
 		<li>About Us</li>
 		<li>About Us</li>
 	</ul>
-	<ul>
+	<ul class="font-weight-middle">
 		<li><a href="#">Home</a></li>
 		<li><a href="#">Service</a></li>
 		<li><a href="#">Extension</a></li>
